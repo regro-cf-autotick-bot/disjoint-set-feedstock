@@ -30,7 +30,6 @@ about:
   home: https://pypi.org/project/disjoint-set/
   license: MIT
   license_family: MIT
-  # license file is manually packaged
   license_file: LICENSE
   summary: DisjointSet (a.k.a. union–find data structure or merge–find set) implementation for Python.
   dev_url: https://github.com/mrapacz/disjoint-set
