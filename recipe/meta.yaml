@@ -1,5 +1,5 @@
 {% set name = "disjoint-set" %}
-{% set version = "0.7.2" %}
+{% set version = "0.7.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name | replace("-", "_") }}/{{ name | replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: a2bd31a7c6d75ef108bb350fba1572c39da8a48c69bef77857a91e843432e725
+  sha256: cc09320b35d5a5bb36ceba86ab885b073340d0ba05cd92e9bd413fbea026162a
 
 build:
   number: 0
